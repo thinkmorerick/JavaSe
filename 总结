@@ -1,0 +1,28 @@
+总结
+
+计算机程序：为了让计算机执行某些操作或者解决某个问题而编写一系列有序指令的集合！
+
+使用记事本开发java程序的步骤：
+01.在我们的电脑上，配置jdk（配置java环境变量）
+02.编写java源文件 Hello.java （以.java结尾的文件）
+03.win+r cmd打开  doc窗口
+	找到源文件在电脑中的位置，之后编译
+	javac Hello.java
+	生成了一个.class（字节码文件）
+04.java Hello 运行字节码文件
+
+java程序的结构特点：
+01.类名和文件名完全一致
+02.main() 是整个程序的入口
+03.main() 的四要素必不可少！
+	001.public
+	002.static
+	003.void
+	004.String[] args
+	
+使用MyEclipse开发java程序
+01.创建java项目
+02.创建java源文件，放在src中！还得有包名
+03.书写java代码
+04.运行java程序
+

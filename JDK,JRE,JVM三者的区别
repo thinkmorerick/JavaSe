@@ -1,0 +1,18 @@
+JDK,JRE,JVM三者的区别
+
+JDK:（Java Development ToolKit） java开发工具包。JDK是整个java的核心！
+	包括了java运行环境 JRE（Java Runtime Environment），一堆java工具和java基础
+	的类库（Java API ===》 java应用程序接口，其实就是大牛给我们写好的一些class文件）！
+	J2SE：标准版（standard edition）
+	J2EE：企业版（enterprise edition）
+	J2ME：移动设备（micro edition）
+	
+JRE：java运行环境（Java Runtime Environment），是我们常说的java平台！所有的java
+	程序都要在jre环境下才能运行！
+	包含了JVM，JAVA的核心类库！但是不包含开发工具----编译器，调试器！
+	
+JVM：（Java virtual Machine）java虚拟机，输入jre的一部分！
+	主要工作：解释自己的字节码文件，并且映射到本地的CPU的指令继承的OS系统调用！
+	java是跨平台的，就是基于jvm的！使用jvm的映射规则，让其变得与操作系统无关了！
+	jvm不关心我们写的.java文件，只关注.class文件！因为.class文件有jvm需要的指令集！
+	

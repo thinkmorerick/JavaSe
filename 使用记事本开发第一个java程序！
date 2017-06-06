@@ -1,0 +1,25 @@
+使用记事本开发第一个java程序！
+
+01.配置环境变量 找到JDK的安装位置 E:\jdk1.8.0_25\bin
+02.右键点击我的电脑 属性--->高级系统设置--->环境变量---->系统环境变量---->path
+03.把E:\jdk1.8.0_25\bin;放在path的最前面
+04.WIN+R打开cmd命名窗口
+05.输入java 和 javac 回车 如果没有提示出现错误 则表明 环境变量配置成功！
+
+01.找一个位置 创建一个 以.java结尾的文本文件（java的源文件）
+02.写入java代码
+	public class HelloWorld{
+		// 单行注释  运行的时候不编译
+		public static void main(String[] args){ //java程序的入口，主线程
+			System.out.print("大家好！");
+		}
+	}
+03.WIN+R cmd
+04.切换盘符 找到我们 源文件的位置
+05.javac 文件名.java（文件称不区分大小写） ----> 编译java源文件  
+06.java 文件名（文件名区分大小写，可以使用反编译工具，反编译）-> 运行java代码   -> 得到结果
+
+HelloWorld.java  -------->     HelloWorld.class  --------->   结果
+ 源文件我们看得懂                   javac编译器                字节码文件电脑能看懂              java运行器
+ 
+ 
